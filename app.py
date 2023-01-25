@@ -41,10 +41,10 @@ with col3:
 
 	
 		if aco == 'CA50':
-			fyk = 500
-		elif aco == 'CA60':
+		        fyk = 500
+		   elif aco == 'CA60':
 			fyk = 600
-		elif aco == 'CA25':
+		   elif aco == 'CA25':
 			fyk = 250
 
 
