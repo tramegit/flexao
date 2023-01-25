@@ -38,14 +38,13 @@ with col3:
 	aco = st.radio(
     "Tipo de aço",
     ('CA50', 'CA60', 'CA25'), index=0)
-
 	
-		if aco == 'CA50':
-		        fyk = 500
-		   elif aco == 'CA60':
-			fyk = 600
-		   elif aco == 'CA25':
-			fyk = 250
+    if aco == 'CA50':
+              fyk = 500
+    elif aco == 'CA60':
+	      fyk = 600
+    elif aco == 'CA25':
+	      fyk = 250
 
 
 
