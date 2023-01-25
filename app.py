@@ -39,12 +39,12 @@ with col3:
     "Tipo de aço",
     ('CA50', 'CA60', 'CA25'), index=0)
 
-	match aco:
-		case 'CA50':
+	
+		if aco == 'CA50':
 			fyk = 500
-		case 'CA60':
+		elif aco == 'CA60':
 			fyk = 600
-		case 'CA25':
+		elif aco == 'CA25':
 			fyk = 250
 
 
