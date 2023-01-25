@@ -35,10 +35,9 @@ with col2:
 	d = st.number_input('Altura últil da Seção  h(cm)', value = 26.50, min_value = 1.0, step=0.01)
 	
 with col3:
-	aco = st.radio(
+    aco = st.radio(
     "Tipo de aço",
-    ('CA50', 'CA60', 'CA25'), index=0)
-	
+    ('CA50', 'CA60', 'CA25'), index=0)	
     if aco == 'CA50':
               fyk = 500
     elif aco == 'CA60':
